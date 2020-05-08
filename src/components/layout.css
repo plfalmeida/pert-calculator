@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  width: 100%;
+  color: #424258;
+  height: 100vh;
+
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  color: #424258;
+}
+
+.page-top {
+  width: 100%;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+.estimate-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.estimate {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.estimate input,
+.estimate label {
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.estimate input {
+  font-size: 5rem;
+  border: 0;
+}
+
+.estimate.mp input {
+  font-size: 8rem;
+}
+
+.pert-value {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 2rem;
+}

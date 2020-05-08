@@ -1,0 +1,37 @@
+input {
+    color: #424258;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+.estimate-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.estimate {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.estimate input,
+.estimate label {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.estimate input {
+    font-size: 5rem;
+    border: 0;
+}
+
+.estimate.mp input {
+    font-size: 8rem;
+}
